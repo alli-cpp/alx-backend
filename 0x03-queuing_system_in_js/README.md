@@ -1,4 +1,6 @@
-queuing_system_in_js ~package json~{
+queuing_system_in_js 
+
+#package json
     "name": "queuing_system_in_js",
     "version": "1.0.0",
     "description": "",
@@ -35,4 +37,10 @@ queuing_system_in_js ~package json~{
     }
   }
 
+#babelrc
 
+  {
+  "presets": [
+    "@babel/preset-env"
+  ]
+}
